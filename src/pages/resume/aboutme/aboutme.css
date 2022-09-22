@@ -1,0 +1,114 @@
+.left-container {
+    padding-left: 50px;
+    padding-top: 50px;
+    flex: 1;
+}
+
+.about-me-heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: #0A1930
+}
+
+.about-me-description {
+    font-size: 25px;
+    font-weight: 300;
+    color: #0A1930;
+    margin-top: 5px;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.social-button {
+    width: 35px;
+    margin-right: 20px;
+    filter: grayscale(100%)
+}
+
+.social-button:hover {
+    filter: grayscale(0%)
+}
+
+.my-image {
+    height: 500px
+}
+
+.social-container {
+    margin-top: 2px;
+}
+
+.download-cv {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #0A1930;
+    color: white;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.contact-me {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: #0A1930;
+    border: solid;
+    border-width: 1px;
+    border-color: #0A1930;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .left-container {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .about-me-heading {
+        font-size: 20px;
+    }
+
+    .about-me-description {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .social-button {
+        width: 15px;
+        margin-right: 10px;
+    }
+
+
+    .my-image {
+        height: 180px
+    }
+
+
+    .download-cv {
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .contact-me {
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+
+}

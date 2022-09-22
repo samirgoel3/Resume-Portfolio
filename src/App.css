@@ -1,0 +1,12 @@
+*{
+  --primary-color:#00695C;
+  --primary-color-light:#00796B;
+  --primary-color-dark:#004D40;
+}
+
+.App {
+  text-align: left;
+  border: 0px;
+  margin: 0px;
+  height: 100%;
+}
