@@ -7,7 +7,7 @@ import { SiGmail, SiMongodb, SiPostman, SiSocketdotio, SiMaterialui } from "reac
 import { TbSend } from "react-icons/tb";
 import { RiMenu2Line, RiCloseCircleFill } from "react-icons/ri";
 import { BsMenuAppFill, BsApple, BsChevronDown } from "react-icons/bs"
-import { AiOutlineSketch } from "react-icons/ai"
+import { AiOutlineSketch , AiFillCaretRight} from "react-icons/ai"
 
 
 
@@ -34,6 +34,7 @@ const ICONS = {
     CLOSE:RiCloseCircleFill,
     DOWN:BsChevronDown,
     SKETCH:AiOutlineSketch,
+    BULLET_POINT:AiFillCaretRight,
 }
 
 export default ICONS;
