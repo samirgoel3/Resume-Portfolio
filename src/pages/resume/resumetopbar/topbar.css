@@ -1,0 +1,10 @@
+.logo{
+    width: 35px;
+    height: 35px;
+    color: '#4ABDA9';
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+

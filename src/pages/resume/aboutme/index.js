@@ -14,17 +14,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import MoreAboutMe from '../modals/MoreAboutMe';
 import { isMobile } from 'react-device-detect';
-
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    boxShadow: 24,
-    overflow:'scroll'
-};
-
+import Pdf from '../../../files/m.pdf';
 
 const MODAL_STYLES = {
     position: "absolute",
@@ -60,13 +50,13 @@ export default function Aboutme({onContactMeClick = ()=>{}}) {
                 </Grid>
 
                 <Grid container marginTop={2}>
-                    <div className='download-cv'>Download CV</div>
+                    <a href = {Pdf} target = "_blank" className='download-cv' >Download CV</a>
                     <div className='contact-me' onClick={onContactMeClick}>Contact me</div>
                 </Grid>
             </Grid>
 
             <Grid item >
-                <img src={MyPhoto} className='my-image'></img>
+                <img src={'https://i.ibb.co/2jjbsKT/my-pic.png'} style={{marginTop:isMobile ? 14:0, marginBottom:isMobile ? -4:0}} className='my-image'></img>
             </Grid>
 
 

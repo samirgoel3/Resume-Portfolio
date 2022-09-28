@@ -21,10 +21,10 @@ export default function AtsSdk() {
 
             <Grid item>
                 <Typography style={{ fontSize: isMobile ? 8 : 16, fontWeight: 400, color: COLORS.RESUME_BACKGROUND, marginTop: 2, textAlign: 'justify' }}>It is a Android SDK (library module) that any android developer can implement by simply adding android implementation command in his project. </Typography>
-                <a href='https://github.com/samirapporio/Apporio-Tracking-System'><img src='https://i.ibb.co/rMsyBSk/implementation.png' style={{width:isMobile ? 300:800, marginTop:10}}/></a>
+                <a href='https://github.com/samirapporio/Apporio-Tracking-System'><img src='https://i.ibb.co/rMsyBSk/implementation.png' style={{width:'60vw', marginTop:10}}/></a>
                 <Typography style={{ fontSize: isMobile ? 13 : 20, marginRight: 45, fontWeight: 700, color: COLORS.RESUME_BACKGROUND, marginTop:10 }}>Project Components</Typography>
                 <Typography style={{ fontSize: isMobile ? 8 : 16, fontWeight: 400, color: COLORS.RESUME_BACKGROUND, marginTop: 2, textAlign: 'justify' }}>The whole SDK is divided into three Different Component</Typography>
-                <a href='</a>'><img src='https://i.ibb.co/8zYTvZF/atscomponent.png' style={{width:isMobile ? 300:800, marginTop: isMobile?5:20}}/></a>
+                <a href='</a>'><img src='https://i.ibb.co/8zYTvZF/atscomponent.png' style={{width:'60vw', marginTop: isMobile?5:20}}/></a>
 
                 <Typography style={{ fontSize: isMobile ? 13 : 20, marginRight: 45, fontWeight: 700, color: COLORS.RESUME_BACKGROUND, marginTop:10 }}>Documentation</Typography>
                 <Typography style={{ fontSize: isMobile ? 8 : 16, fontWeight: 400, color: COLORS.RESUME_BACKGROUND, marginTop: 2, textAlign: 'justify' }}>I have Also provided the documentation for developers to implement</Typography>

@@ -33,7 +33,7 @@ export default function MockLocProject() {
                
                {/* // App design  */}
                 <Typography style={{ fontSize: isMobile ? 10 : 14, marginRight: 45, fontWeight: 700, color: COLORS.RESUME_BACKGROUND, marginTop: 15 }}>App Designs Highlights</Typography>
-                <img src={MockLocMobileImages} style={{ height: isMobile ? 110 : 460 }} />
+                <img src={MockLocMobileImages} style={{ height: isMobile ? 110 : '24vw' }} />
                 <Typography style={{ fontSize: isMobile ? 10 : 14, marginRight: 45, fontWeight: 700, color: COLORS.RESUME_BACKGROUND, marginTop: 15 }}>To Check all designs please click following images</Typography>
                 <Grid container >
                     <Grid item>

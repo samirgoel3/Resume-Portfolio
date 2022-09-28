@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
 import { Grid, Typography } from '@mui/material';
+import React from 'react';
 import { isMobile } from "react-device-detect";
 import COLORS from '../../../constants/Colors';
-import MyPic from '../../../images/my_pic.png';
 import ICONS from '../../../constants/Icons';
-import MockLocProject from '../projects/MockLocPorject';
 import AtsSdk from '../projects/AtsSdk';
+import MockLocProject from '../projects/MockLocPorject';
 
 
 
@@ -44,7 +43,7 @@ export default function MoreAboutMe() {
                             <Typography style={{ fontSize: isMobile ? 8 : 20, fontWeight: 400, color: COLORS.RESUME_BACKGROUND, marginTop: 10, textAlign: 'justify' }}>I am a self-teaching personality who believes in doing self-study and am a very enthusiast in learning new technologies and languages, having a great passion for building a mobile applications. </Typography>
                         </Grid>
                         <Grid item>
-                            <img src={MyPic} style={{ width: isMobile ? 140 : 250 }} />
+                            <img src={'https://i.ibb.co/2jjbsKT/my-pic.png'} style={{ width: isMobile ? 140 : 250 }} />
                         </Grid>
                     </Grid>
                 </Grid>

@@ -8,6 +8,7 @@ import SketchAndDesigns from './sketchs';
 import ContactMe from './contactme/index';
 import CopyRight from './copyright';
 import { Grid } from '@mui/material';
+import COLORS from '../../constants/Colors';
 
 export default function Resume() {
 
@@ -16,6 +17,7 @@ export default function Resume() {
     const expirienceRef = React.useRef(null);
     const projectsRef = React.useRef(null);
     const contactMeRef = React.useRef(null);
+    const brainstromRef = React.useRef(null);
 
     const handleScrollToView = (view) => {
         if (view === "ABOUT_ME") {
@@ -26,38 +28,50 @@ export default function Resume() {
             expirienceRef.current.scrollIntoView({ behavior: 'smooth' })
         } if (view === "PROJECTS") {
             projectsRef.current.scrollIntoView({ behavior: 'smooth' })
+        } if (view === "BRAINSTROM") {
+            brainstromRef.current.scrollIntoView({ behavior: 'smooth' })
         } if (view === "CONTACTS") {
             contactMeRef.current.scrollIntoView({ behavior: 'smooth' })
         }
     }
 
 
+    
+
+
     return (
 
         <div>
 
-            <ResumeTopBar onItemClick={(val) => { handleScrollToView(val) }} />
-            <div style={{ height:'95vh', overflowY:'scroll', marginTop:50}}>
+
+
+            <div style={{ height: '100vh', overflowY: 'scroll' }}>
                 <div ref={abouteRef} />
+                <div style={{ height: 50, width: '100%' }}></div>
+
                 <Aboutme onContactMeClick={() => { handleScrollToView('CONTACTS') }} />
 
-                <div ref={skillsRef} />
+                <div style={{height:50, width:'100%', backgroundColor:COLORS.RESUME_BACKGROUND}} ref={skillsRef} />
                 <Skills />
 
-                <div ref={expirienceRef} />
+                <div  style={{height:50, width:'100%', backgroundColor:COLORS.RESUME_BACKGROUND}} ref={expirienceRef} />
                 <Experience />
 
-                <div ref={projectsRef} />
+                <div style={{height:50, width:'100%', backgroundColor:COLORS.RESUME_BACKGROUND_LIGHT}}ref={projectsRef} />
                 <Projects />
 
+                <div style={{height:50, width:'100%', backgroundColor:COLORS.RESUME_BACKGROUND_LIGHT}}  ref={brainstromRef} />
                 <SketchAndDesigns />
 
-                <div ref={contactMeRef} />
+                <div style={{height:50, width:'100%', backgroundColor:COLORS.RESUME_BACKGROUND_LIGHT}}  ref={contactMeRef} />
                 <ContactMe />
 
                 <CopyRight />
             </div>
 
+            <div  >
+                <ResumeTopBar onItemClick={(val) => { handleScrollToView(val) }} />
+            </div>
 
         </div>
     )
