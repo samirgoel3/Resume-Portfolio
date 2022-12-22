@@ -50,10 +50,11 @@ export default function ProjectTabs() {
     <Box >
       <Box >
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="React native" {...a11yProps(0)} />
-          <Tab label="Android (Native)" {...a11yProps(1)} />
-          <Tab label="React Website" {...a11yProps(2)} />
-          <Tab label="Node.js" {...a11yProps(3)} />
+          <Tab label="All" {...a11yProps(0)} />
+          <Tab label="React native" {...a11yProps(1)} />
+          <Tab label="Android (Native)" {...a11yProps(2)} />
+          <Tab label="React Website" {...a11yProps(3)} />
+          <Tab label="Node.js" {...a11yProps(4)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
@@ -66,6 +67,9 @@ export default function ProjectTabs() {
         {/* Item Three */}
       </TabPanel>
       <TabPanel value={value} index={3}>
+        {/* Item Three */}
+      </TabPanel>
+      <TabPanel value={value} index={4}>
         {/* Item Three */}
       </TabPanel>
     </Box>

@@ -20,6 +20,12 @@ const MODAL_STYLES = {
   
 var items = [
     {
+        name: "Exampur",
+        image:"https://i.ibb.co/NTqsG49/exampur.png",
+        link: "https://play.google.com/store/apps/details?id=com.edudrive.exampur",
+        modal:null
+    },
+    {
         name: "My Gate visitor",
         image:"https://i.ibb.co/BVXkfZ5/samir-visitoir.png",
         link: "https://play.google.com/store/apps/details?id=com.executive",
