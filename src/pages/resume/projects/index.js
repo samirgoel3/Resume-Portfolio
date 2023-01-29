@@ -176,7 +176,7 @@ export default function Projects() {
 
             <Grid container justifyContent={'center'} alignItems={'center'} direction={'column'}>
                 <Typography style={{ color: COLORS.RESUME_TEXT_LIGHT, fontWeight: 700, fontSize: isMobile ? 20 : 35, marginTop: 13, marginBottom: 23 }}>MY TECH. PROJECTS</Typography>
-                <ProjectTabs/>
+                {/* <ProjectTabs/> */}
 
                 <Grid container direction={'row'} justifyContent={'space-evenly'} alignItems={'center'}>
                    {
