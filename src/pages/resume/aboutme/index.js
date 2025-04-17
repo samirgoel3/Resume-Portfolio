@@ -37,7 +37,7 @@ export default function Aboutme({onContactMeClick = ()=>{}}) {
     return (
         <Grid container direction={'row'}>
             <Grid item className='left-container'>
-                <div className='about-me-heading'>Hi I am SAMIR GOEL</div>
+                <div className='about-me-heading'>Hello, I am SAMIR GOEL</div>
                 <div className='about-me-description' style={{fontSize:isMobile?6:20}}>I am a module lead and Full stack developer for Mobile and Web app with a work experience of 8 years <span style={{ fontWeight: 700, fontSize:isMobile?8:20, color: COLORS.RESUME_BACKGROUND, textDecorationLine: 'underline' }} onClick={handleOpen}>more about me</span></div>
                 <Grid container justifyContent={'start'} marginTop={3}>
                     <Grid item><a href="https://wa.me/919650923089" target="_blank"><img src={WhatsApp} className="social-button" /></a></Grid>
